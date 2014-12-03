@@ -1,0 +1,12 @@
+.children li.even {
+	background-color: #efefef;
+	margin:0;
+}
+
+.commentlist .replylink,
+.comment-list .replylink {
+	display:inline-block;
+	font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+	font-size: 12px;
+	padding-bottom:20px;
+}

@@ -1,0 +1,21 @@
+.commentlist .children,
+.comment-list .children {
+	padding-left:15px;
+
+}
+
+.parent .comment-body {
+	margin-bottom:0;
+}
+
+.parent .children .comment-body {
+	padding-bottom:20px;
+}
+
+.commentlist .replylink,
+.comment-list .replylink {
+	display:inline-block;
+	font: 500 12px/1.1 Lato, sans-serif;	
+	line-height: 1.7142857142;
+	padding: 0 0 24px 48px;
+}

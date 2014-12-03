@@ -1,0 +1,188 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jQuery Comment Replies 2\n"
+"POT-Creation-Date: 2013-12-15 14:12-0500\n"
+"PO-Revision-Date: 2013-12-15 14:14-0500\n"
+"Last-Translator: Shelly Cole <brass.blogs@gmail.com>\n"
+"Language-Team: Shelly Cole <brass.blogs@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: jQuery-comments.php:48
+msgid "Reply"
+msgstr ""
+
+#: jQuery-comments.php:49
+msgid "Log in to Reply"
+msgstr ""
+
+#: jQuery-comments.php:51
+msgid "Show Replies"
+msgstr ""
+
+#: jQuery-comments.php:52
+msgid "Hide Replies"
+msgstr ""
+
+#: jQuery-comments.php:54
+msgid "fast"
+msgstr ""
+
+#: jQuery-comments.php:55
+msgid "slow"
+msgstr ""
+
+#: jQuery-comments.php:86
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: jQuery-comments.php:94
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: jQuery-comments.php:96
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: jQuery-comments.php:97
+msgid "e"
+msgstr ""
+
+#: jQuery-comments.php:146 jQuery-comments.php:152
+msgid "jQuery Comment Replies"
+msgstr ""
+
+#: jQuery-comments.php:156
+msgid "Save Changes"
+msgstr ""
+
+#: jQuery-comments.php:164
+msgid "Style"
+msgstr ""
+
+#: jQuery-comments.php:165
+msgid "Type"
+msgstr ""
+
+#: jQuery-comments.php:166
+msgid "Avatar Size"
+msgstr ""
+
+#: jQuery-comments.php:167
+msgid "Reply Text"
+msgstr ""
+
+#: jQuery-comments.php:168
+msgid "Login Text"
+msgstr ""
+
+#: jQuery-comments.php:169
+msgid "Callback"
+msgstr ""
+
+#: jQuery-comments.php:170
+msgid "Show Replies Text"
+msgstr ""
+
+#: jQuery-comments.php:171
+msgid "Hide Replies Text"
+msgstr ""
+
+#: jQuery-comments.php:172
+msgid "Reverse Children?"
+msgstr ""
+
+#: jQuery-comments.php:173
+msgid "Slide Speed (open)"
+msgstr ""
+
+#: jQuery-comments.php:174
+msgid "Slide Speed (close)"
+msgstr ""
+
+#: jQuery-comments.php:175
+msgid "Easing Type"
+msgstr ""
+
+#: jQuery-comments.php:196
+msgid ""
+"The type of comments to display. (\"Ping\" is trackbacks and pingbacks "
+"together.)"
+msgstr ""
+
+#: jQuery-comments.php:198
+msgid "All"
+msgstr ""
+
+#: jQuery-comments.php:199
+msgid "Comment"
+msgstr ""
+
+#: jQuery-comments.php:200
+msgid "Trackback"
+msgstr ""
+
+#: jQuery-comments.php:201
+msgid "Pingback"
+msgstr ""
+
+#: jQuery-comments.php:202
+msgid "Pings"
+msgstr ""
+
+#: jQuery-comments.php:209
+msgid ""
+"The desired avatar size, in pixels.  Can be between 1 and 512.  Use 0 to "
+"hide them.  Default is 32."
+msgstr ""
+
+#: jQuery-comments.php:218
+msgid "Text to display for the \"reply\" link. Default is \"Reply\""
+msgstr ""
+
+#: jQuery-comments.php:227
+msgid ""
+"Text to display for the \"login\" message. Default is \"Log in to Reply\""
+msgstr ""
+
+#: jQuery-comments.php:245
+msgid ""
+"Text to display for the \"Show Replies\" link. Default is \"Show Replies\". "
+"Please see the readme.txt file for further information."
+msgstr ""
+
+#: jQuery-comments.php:254
+msgid ""
+"Text to display for the \"Hide Replies\" link. Default is \"Hide Replies\". "
+"Please see the readme.txt file for further information."
+msgstr ""
+
+#: jQuery-comments.php:263
+msgid ""
+"Set to \"Yes\" to make this child comments show in reverse order (newest "
+"first)."
+msgstr ""
+
+#: jQuery-comments.php:273
+msgid ""
+"Speed of slide when opening the replies. Default is \"slow\". You can use "
+"\"fast\" or the number of milliseconds you would like it to take."
+msgstr ""
+
+#: jQuery-comments.php:282
+msgid ""
+"Speed of slide when closing the replies. Default is \"fast\". You can use "
+"\"slow\" or the number of milliseconds you would like it to take."
+msgstr ""

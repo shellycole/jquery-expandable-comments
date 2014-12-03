@@ -1,0 +1,20 @@
+.parent .comment-body {
+	margin-bottom:0;
+}
+
+.parent .children .comment-body {
+	padding-bottom:20px;
+}
+
+.children li.even {
+	background-color:#efefef !important;
+}
+
+.commentlist .replylink,
+.comment-list .replylink {
+	display:inline-block;
+	font-size: 13px;
+	font-size: 0.928571429rem;	
+	line-height: 1.714285714;
+	padding: 10px 0 0 0;
+}
