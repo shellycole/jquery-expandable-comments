@@ -6,6 +6,11 @@
 	padding-bottom:20px;
 }
 
+.commentlist {
+        position:relative;
+        zoom:1;
+}
+
 .commentlist li .comment {
 	border-bottom:0;
 }

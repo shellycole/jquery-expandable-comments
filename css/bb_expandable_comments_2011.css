@@ -10,6 +10,11 @@
 	background-color:#efefef !important;
 }
 
+.commentlist {
+        position:relative;
+        zoom:1;
+}
+
 .commentlist .replylink,
 .comment-list .replylink {
 	display:inline-block;

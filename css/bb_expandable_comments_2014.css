@@ -1,7 +1,12 @@
+.comment-list { /* IE fixes */
+        position:relative;
+        zoom:1;
+}
+
 .commentlist .children,
 .comment-list .children {
 	padding-left:15px;
-
+        display:block; /* block-level element necessary for easing to work */
 }
 
 .parent .comment-body {
