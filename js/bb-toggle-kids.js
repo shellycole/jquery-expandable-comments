@@ -10,17 +10,18 @@ jQuery(document).ready(function($) {
   }
 
   // TwentyTwelve and below
-  $('.commentlist > li').each(function() {
+  $('.commentlist > li, .comment-list > li').each(function() {
     if( $(this).find('.children').length > 0 ) {
-      $('li:has(ul), li:has(ol)').addClass('parent');
-      $(this).find('.children').before('<div class="replylink"><span class="show">'+$showtext+'</span></div>');
-    }
-  });
-
-  // TwentyThirteen +
-  $('.comment-list > li').each(function() {
-    if( $(this).find('.children').length > 0 ) {
-      $(this).find('.children').before('<div class="replylink"><span class="show">'+$showtext+'</span></div>');
+      
+      //if($('.commentlist > li').length()) { // TwentyTwelve and below
+        $('li:has(ul), li:has(ol)').addClass('parent');
+      //}
+      
+      if($show_open_by_default == 1) {
+            $(this).find('.children').before('<div class="replylink"><span class="show">'+$hidetext+'</span></div>');
+      } else {
+            $(this).find('.children').before('<div class="replylink"><span class="show">'+$showtext+'</span></div>');
+      }
     }
   });
 
@@ -30,7 +31,11 @@ jQuery(document).ready(function($) {
     $(this).css('cursor','auto'); 
   }).click(function() {                     // and on click...
     // change the text
-    $(this).text( $(this).text() == $hidetext ? $showtext : $hidetext); 
+    if($show_open_by_default == 1) {
+      $(this).text( $(this).text() == $showtext ? $hidetext : $showtext);
+    } else {
+      $(this).text( $(this).text() == $hidetext ? $showtext : $hidetext); 
+    }
     
     // animate the visibility of the children
     var $nextDiv = $(this).next();
